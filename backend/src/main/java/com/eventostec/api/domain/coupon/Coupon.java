@@ -30,7 +30,7 @@ public class Coupon {
 
     private String code;
 
-    private String discount;
+    private Integer discount;
 
     private Date valid;
 

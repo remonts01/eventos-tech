@@ -24,7 +24,7 @@ public class CouponService {
     public Coupon addCouponToEvent(UUID eventId, CouponRequestDTO couponData) {
 
         Event event = eventRepository.findById(eventId)
-            .orElseThrow(() => new IllegalArgumentException("Event not found"));
+            .orElseThrow(() -> new IllegalArgumentException("Event not found"));
 
         Coupon coupon = new Coupon();
         coupon.setCode(couponData.code());
