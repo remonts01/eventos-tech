@@ -1,2 +1,2 @@
 # eventos-tech
-Projeto de um app para gerenciar eventos de tecnologia.
+Projeto de uma plataforma para gerenciar eventos de tecnologia.
